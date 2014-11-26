@@ -21,7 +21,7 @@ public abstract class TestGen
 	}
 	public static void main(String[] a) throws Exception
 	{
-		AuthorEncoder coder = new AuthorEncoder();
+		FileEncoder61668 coder = new FileEncoder61668();
 		LinkedList<Character> key = new LinkedList<>();
 		for(int i=0; i<256; i++)
 		{
